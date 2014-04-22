@@ -1,4 +1,4 @@
 kamabata-fkbot
 ==============
 
-fkbot on heroku
+fkbot on idobata.io deploying to heroku

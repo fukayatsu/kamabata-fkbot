@@ -4,6 +4,9 @@ GEM
     artii (2.0.4)
     faraday (0.9.0)
       multipart-post (>= 1.2, < 3)
+    flippy (0.1.2)
+      ruby-termios
+      trollop
     http_router (0.11.1)
       rack (>= 1.0.0)
       url_mount (~> 0.2.1)
@@ -30,8 +33,13 @@ GEM
       faraday (~> 0.9.0)
       lita (>= 2.5)
       pusher-client (~> 0.6.0)
+    lita-pebbles (0.0.1)
+      flippy (~> 0.1.2)
+      lita (>= 2.0)
+      pebbles-suddenly_death_string (~> 0.0.4)
     multi_json (1.9.2)
     multipart-post (2.0.0)
+    pebbles-suddenly_death_string (0.0.4)
     puma (2.8.2)
       rack (>= 1.1, < 2.0)
     pusher-client (0.6.0)
@@ -41,7 +49,9 @@ GEM
     redis (3.0.7)
     redis-namespace (1.4.1)
       redis (~> 3.0.4)
+    ruby-termios (0.9.6)
     thor (0.19.1)
+    trollop (2.0)
     url_mount (0.2.1)
       rack
     websocket (1.1.2)
@@ -54,3 +64,4 @@ DEPENDENCIES
   lita-ascii-art
   lita-google-images
   lita-idobata
+  lita-pebbles

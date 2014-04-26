@@ -33,7 +33,7 @@ GEM
       faraday (~> 0.9.0)
       lita (>= 2.5)
       pusher-client (~> 0.6.0)
-    lita-pebbles (0.0.1)
+    lita-pebbles (0.0.2)
       flippy (~> 0.1.2)
       lita (>= 2.0)
       pebbles-suddenly_death_string (~> 0.0.4)

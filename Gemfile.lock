@@ -33,7 +33,7 @@ GEM
       faraday (~> 0.9.0)
       lita (>= 2.5)
       pusher-client (~> 0.6.0)
-    lita-pebbles (0.1.6)
+    lita-pebbles (0.1.7)
       flippy (~> 0.1.2)
       lita (>= 3.1)
       pebbles-suddenly_death_string (~> 0.0.4)
@@ -51,7 +51,7 @@ GEM
     redis-namespace (1.4.1)
       redis (~> 3.0.4)
     ruby-termios (0.9.6)
-    rufus-scheduler (3.0.7)
+    rufus-scheduler (3.0.8)
       tzinfo
     thor (0.19.1)
     thread_safe (0.3.4)
@@ -70,4 +70,4 @@ DEPENDENCIES
   lita-ascii-art
   lita-google-images
   lita-idobata
-  lita-pebbles (= 0.1.6)
+  lita-pebbles (= 0.1.7)
